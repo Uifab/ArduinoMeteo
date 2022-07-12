@@ -98,8 +98,6 @@ void sendDataToServer(){
 
 void setup() {
 
-	String test1 = String();
-
 	//Serial
 	#ifdef __DEBUG__
 		Serial.begin(9600);
